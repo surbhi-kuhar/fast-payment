@@ -22,7 +22,7 @@ export const PeerToPeer = ({
     }
     return <Card title="Mobile Phone Recent Transactions">
         <div className="pt-2">
-            {transactions.map(t => <div className="flex justify-between">
+            {transactions.map(t => <div className="flex justify-between" key={t.time.toDateString()}>
                 <div>
                     <div className="text-sm">
                         {text}
