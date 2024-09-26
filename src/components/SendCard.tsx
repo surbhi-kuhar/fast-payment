@@ -13,7 +13,7 @@ export function SendCard() {
   const router=useRouter();
   const handleSend = async () => {
     try {
-        const resp:any=await p2pTransfer(number,parseInt(amount));
+         await p2pTransfer(number,parseInt(amount));
         router.push("/dashboard");
     } catch (error) {
       console.error("Error sending transaction:", error);
