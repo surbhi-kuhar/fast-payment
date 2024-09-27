@@ -23,7 +23,7 @@ export function SendCard() {
     <div className="h-[90vh]">
       <Center>
         <Card title="Send">
-          <div className="min-w-72 pt-2">
+          <div className="min-w-72 pt-2 border-black">
             <TextInput
               placeholder={"Number"}
               label="Number"
