@@ -1,4 +1,3 @@
-// SendCard.tsx
 "use client"; 
 import { Button } from "@/ui/src/button";
 import { Card } from "@/ui/src/card";
