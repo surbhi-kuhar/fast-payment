@@ -59,7 +59,7 @@ const User = ({ user }: { user: any }) => {
         </div>
         <div className="flex flex-col justify-center h-full">
           <div>
-            {user.name} {user.number}
+            {user.name.charAt(0).toUpperCase() + user.name.slice(1)} {user.number}
           </div>
         </div>
       </div>
